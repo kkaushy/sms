@@ -1,0 +1,45 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="row" >
+        <h3 id="loggedIn"></h3>
+    </div>
+    <div class="row">
+
+        <div class="conversation-wrap col-lg-3">
+            
+        </div>
+
+
+
+        <div class="message-wrap col-lg-8">
+            <div class="msg-wrap">
+            
+
+            </div>
+
+            <div class="send-wrap ">
+
+                <textarea class="form-control send-message" rows="3" placeholder="Write a reply..." id="txtMessage"></textarea>
+
+
+            </div>
+            <div class="btn-panel">
+                <a href="#" class=" col-lg-4 text-right btn send-message-btn pull-right" role="button" onclick="sendMessage()"><i class="fa fa-plus"></i> Send Message</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
