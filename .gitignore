@@ -1,0 +1,7 @@
+*.pyc
+staticfiles/
+mediafiles
+.vscode/
+logs/
+db.sqlite3
+__pycache__/
